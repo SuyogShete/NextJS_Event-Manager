@@ -5,7 +5,7 @@ export async function GET(
     { params }: { params: { eventID: string } }
   ) {
 
-    const client = await MongoClient.connect('mongodb+srv://suyogshete04:suyog9552@cluster0.1lzgqzo.mongodb.net/');
+    const client = await MongoClient.connect('mongodb+srv://suyogshete04:@cluster0.1lzgqzo.mongodb.net/');
 
     const eventID = params.eventID;
   
